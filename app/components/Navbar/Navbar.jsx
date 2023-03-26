@@ -5,7 +5,7 @@ const Navbar = () => {
 
             <ul>
                 <li>
-                    <div className="nav-item">
+                    <div className="nav-item active">
                         <span className="fa-solid fa-futbol item-icon"></span>
                         <p>Partidos</p>
                     </div>

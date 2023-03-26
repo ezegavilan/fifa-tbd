@@ -4,3 +4,62 @@ body {
     background-color: #171714;
     color: #F5EED5;
 }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem;
+}
+
+.container > .main-board {
+    background-color: #212121;
+    border-radius: 16px;
+    height: 450px;
+    padding: 0 1rem;
+}
+
+.evento-container {
+    margin: 0 auto;
+    padding: 1rem 0;
+    display: flex;
+    gap: 26px;
+}
+
+.evento-container .evento-badge {
+    background-color: #015386;
+    font-size: 14px;
+    padding: 1rem 1rem;
+    max-width: 150px;
+    border-radius: 16px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.evento-container .evento-badge:hover {
+    cursor: pointer;
+    background-color: #0074B1;
+}
+
+.evento-container .evento-badge.xl-badge {
+
+}
+
+.evento-end {
+    flex-basis: auto;
+    text-align: right;
+    margin-left: auto;
+    width: 148px;
+}
+
+.board {
+    border: 1px solid green;
+    padding: 1rem 1rem;
+    display: flex;
+    gap: 26px;
+}
+
+.team-icon {
+    width: 25px;
+}
