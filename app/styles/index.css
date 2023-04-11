@@ -27,7 +27,7 @@ body {
 
 .evento-container .evento-badge {
     background-color: #015386;
-    font-size: 14px;
+    font-size: 13px;
     padding: 1rem 1rem;
     max-width: 150px;
     border-radius: 16px;
@@ -53,13 +53,51 @@ body {
     width: 148px;
 }
 
-.board {
-    border: 1px solid green;
+.resultados-container {
     padding: 1rem 1rem;
     display: flex;
+    flex-direction: column;
     gap: 26px;
+}
+
+.resultados-container .resultados {
+    border: 1px solid #3F3F3F;
+    border-radius: 10px;
+
+    padding: 0.8rem 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.resultados-container .resultados .local-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.resultados-container .resultados > .visitante-info {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.resultados-container .resultados .score-badge {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 15px;
+
+    background-color: #3F3F3F;
+    border-radius: 10px;
+    padding: 0.5rem 0;
+    width: 78px;
 }
 
 .team-icon {
     width: 25px;
+    height: 25px;
 }

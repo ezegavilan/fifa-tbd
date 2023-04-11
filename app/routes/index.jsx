@@ -1,8 +1,6 @@
 import style from "~/styles/index.css";
 import Navbar from "../components/Navbar/Navbar";
 
-const imageArg = require("public/assets/argentina.png");
-
 export const links = () => {
     return [{ rel: "stylesheet", href: style }]
 }
@@ -22,9 +20,29 @@ export default function Index() {
                         </div>
                     </div>
 
-                    <div className="board">
-                        <img className="team-icon" src={"/assets/argentina.png"}/>
-                        <span>Argentina</span>
+                    <div className="resultados-container">
+                        <div className="liga">
+                            <span>ICON</span>
+                        </div>
+
+                        <div className="resultados">
+                            <div className="local-info">
+                                <img className="team-icon" src={ "/assets/argentina.png" }/>
+                                <span>Argentina</span>
+                            </div>
+
+                            <span className="score-badge">
+                                <p>3</p>
+                                <p>:</p>
+                                <p>2</p>
+                            </span>
+
+                            <div className="visitante-info">
+                                <img className="team-icon" src={ "/assets/francia.png" }/>
+                                <span>Francia</span>
+                            </div>
+                        </div>
+
                     </div>
                 </article>
             </section>
