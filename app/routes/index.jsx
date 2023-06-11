@@ -27,7 +27,7 @@ export default function Index() {
 
                         <div className="resultados">
                             <div className="local-info">
-                                <img className="team-icon" src={ "/assets/argentina.png" }/>
+                                <img className="team-icon" src={ "/assets/argentina.png" } alt="team"/>
                                 <span>Argentina</span>
                             </div>
 
@@ -38,7 +38,7 @@ export default function Index() {
                             </span>
 
                             <div className="visitante-info">
-                                <img className="team-icon" src={ "/assets/francia.png" }/>
+                                <img className="team-icon" src={ "/assets/francia.png" } alt="teams"/>
                                 <span>Francia</span>
                             </div>
                         </div>
